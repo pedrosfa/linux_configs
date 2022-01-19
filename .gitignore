@@ -1,6 +1,7 @@
 
-#ignore embedded .git's
-*/.git
+user-dirs.dirs
+user-dirs.locale
+gnome-initial-setup-done
 ./
 ../
 Code/
@@ -36,8 +37,6 @@ zsh/./
 zsh/../
 zsh/plugins/
 zsh/.zcompdump
-nvim/./
-nvim/../
 nvim/.git/
 nvim/.github/
 nvim/.gitignore
