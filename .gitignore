@@ -31,12 +31,8 @@ pgadmin4/
 pulse/
 StarUML/
 update-notifier/
-user-dirs.dirs/
-user-dirs.locale/
 zsh/./
 zsh/../
 zsh/plugins/
 zsh/.zcompdump
-nvim/LICENSE
-nvim/plugin/
 tabby/
