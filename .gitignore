@@ -37,10 +37,6 @@ zsh/./
 zsh/../
 zsh/plugins/
 zsh/.zcompdump
-nvim/.git/
-nvim/.github/
-nvim/.gitignore
 nvim/LICENSE
 nvim/plugin/
-nvim/README.md
 tabby/
