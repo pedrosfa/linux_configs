@@ -10,7 +10,11 @@ export PATH=$HOME/.local/share/go/bin:$PATH
 export GOPATH=$HOME/.local/share/go
 export PATH=$HOME/.fnm:$PATH
 export PATH="$PATH:./node_modules/.bin"
-export PATH=$HOME/julia-1.7.0/bin:$PATH
+export PATH=$HOME/julia/bin:$PATH
+export JULIA_DEPOT_HOME=$HOME/julia/julia-depot
+export MXNET_HOME=$HOME/mxnet
+export LD_LIBRARY_PATH=$HOME/mxnet/lib:$LD_LIBRARY_PATH
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libjemalloc.so:$LD_PRELOAD
 eval "$(fnm env)"
 #eval "$(zoxide init zsh)"
 # eval "`pip completion --zsh`"
